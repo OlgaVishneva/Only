@@ -1,0 +1,106 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.cir-1 {
+    background: rgb(153 255 153 / 0.7);
+    position: absolute;
+    left: 700px;
+    top: 500px;
+} 
+
+
+.cir-2 {
+    content: 'привет';
+    background: rgb(153 255 153 / 0.7);
+    position: absolute;
+    left: 1159px;
+    top: 413px;
+}
+
+.cir-3 {
+    background: rgb(153 255 153 / 0.7);
+    position: absolute;
+    left: 1328px;
+    top: 687px;
+}
+
+.cir-4 {
+    background: rgb(153 255 153 / 0.7);
+    position: absolute;
+    left: 1110px;
+    top: 792px;
+}
+
+.cir-5 {
+    background: rgba(26, 1, 255, 0.7);
+    position: absolute;
+    left: 581px;
+    top: 293px;
+}
+
+.cir-6 {
+    background: rgba(26, 1, 255, 0.7);
+    position: absolute;
+    left: 447px;
+    top: 712px;
+}
+
+.cir-7 {
+    background: rgba(26, 1, 255, 0.7);
+    position: absolute;
+    left: 1100px;
+    top: 638px;
+}
+
+.cir-8 {
+    background: rgba(26, 1, 255, 0.7);
+    position: absolute;
+    left: 1428px;
+    top: 479px;
+}
+
+.cir-9 {
+    background: rgba(26, 1, 255, 0.7);
+    position: absolute;
+    left: 1610px;
+    top: 716px;
+}
+
+.cir-10 {
+    background: rgba(26, 1, 255, 0.7);
+    position: absolute;
+    left: 1379px;
+    top: 229px;
+}
+
+.circle {
+    height: 27px;
+    width: 27px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
+  
+  .circle:hover {
+    transform: scale(1.1);
+  }
+  
+  .circle.active {
+    width: max-content;
+    transform: scale(1.1);
+    border-radius: 15px;
+    padding: 0 5px;
+  }
+  
